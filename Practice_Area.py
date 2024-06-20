@@ -106,12 +106,31 @@
 # print(type(string_int(5)))
 
 
-class student():
-    def __init__(self,name,regno,dept,sex):
-        self.name = name
-        self.regno = regno
-        self.dept = dept
-        self.sex = sex
+# class student():
+#     def __init__(self,name,regno,dept,sex):
+#         self.name = name
+#         self.regno = regno
+#         self.dept = dept
+#         self.sex = sex
 
-obj = student('obie',103,'csc','male')
-print(obj.name + ' ' + obj.dept)
+# obj = student('obie',103,'csc','male')
+# print(obj.name + ' ' + obj.dept)
+
+
+def test(num):
+    return num + "my guy!"
+
+print(test('wagwan '))
+
+
+# class cars:
+#     def __init__(self, name, model):
+#         self.name = name
+#         self.model = model
+
+#     def my_car(self):
+#         print(f'my car {self.name} model is {self.model}') 
+
+# obj = cars('benz','gle')
+
+# obj.my_car

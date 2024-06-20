@@ -4,7 +4,7 @@
 #     x = 5
 # print(my_class)
 
-#Exercise on OOP
+#Exercise1 on OOP
 #A class that displays students that pass or failed
 
 #create the class
@@ -14,22 +14,25 @@ class student():
         self.marks = marks       
 
 #input args to match the number of pars in the class
-std1 = student('chimaobi',100) 
-std2 = student('henry',92)
-std3 = student('somto',68)
-std4 = student('onyebuchi',38)
-std5 = student('chisom',24)
+# std1 = student('chimaobi',100) 
+# std2 = student('henry',92)
+# std3 = student('somto',68)
+# std4 = student('onyebuchi',38)
+# std5 = student('chisom',24)
 
-#create a list obj to hold this parameters
-obj = [std1,std2,std3,std4,std5]
+# #create a list obj to hold this parameters
+# obj = [std1,std2,std3,std4,std5]
 
-#iterate through this list to print pass and failed students
-for i in obj:
-    if i.marks >= 50:
-        print(f'{i.name} passed with a score of {i.marks}')
-    elif i.marks < 50:
-        print(f'{i.name} failed with a score of {i.marks}')
+# #iterate through this list to print pass and failed students
+# for i in obj:
+#     if i.marks >= 50:
+#         print(f'{i.name} passed with a score of {i.marks}')
+#     elif i.marks < 50:
+#         print(f'{i.name} failed with a score of {i.marks}')
+
+
         
+#Exercise12 on OOP
 
 
         
@@ -61,7 +64,9 @@ for i in obj:
 
 # greet = person('chimaobi',1997)
 # greet2 = person('henry',1996)
-# greet.my_func2()
+# greet.my_func()
+
+
 
 
 # INHERITANCE
