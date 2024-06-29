@@ -1,6 +1,6 @@
-# car = {'brand':'benz','colour':['black','red','blue'],'model':2024,'model':1999,'sold':True}
-# print(car)
-# print(type(car))
+car = {'brand':'benz','colour':['black','red','blue'],'model':2024,'model':1999,'sold':True}
+print(car)
+print(type(car))
 # print(car['brand'])
 # print(len(car))
 

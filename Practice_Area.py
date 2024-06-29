@@ -117,10 +117,10 @@
 # print(obj.name + ' ' + obj.dept)
 
 
-def test(num):
-    return num + "my guy!"
+# def test(num):
+#     return num + "my guy!"
 
-print(test('wagwan '))
+# print(test('wagwan '))
 
 
 # class cars:
