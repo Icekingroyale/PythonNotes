@@ -1,6 +1,6 @@
 # #SETS   31-05-2024
 
-# students = {'alex','chimaobi','emma','Ebere','chimaobi'}
+students = {'alex','chimaobi','emma','Ebere','chimaobi'}
 # students2 = {'okeke','amanda','onyeka'}
 # students3 = ['henry','sikito']
 
@@ -9,11 +9,11 @@
 # # print(len(students))
 # # print(type(students))
 
-# score = set((90,75,65,33,71,80))
-# # print(type(score))
+score = set((90,75,65,33,71,80))
+print(type(score))
 
-# # for i in students:
-# #     print(i)
+for i in students:
+    print(i)
 
 # # print('emma' in students)
 
@@ -47,8 +47,8 @@
 # print(set2)
 
 # #INTERSECTION
-set1 = {2,4,6,9,5}
-set2 = {6,3,7,5,4,8}
+# set1 = {2,4,6,9,5}
+# set2 = {6,3,7,5,4,8}
 
 # set3 = set1.intersection(set2)
 # print(set3)
@@ -68,6 +68,6 @@ set2 = {6,3,7,5,4,8}
 # print(set5)
  
 # set6 = set1.symmetric_difference_update(set2)
-set1.symmetric_difference_update(set2)
-print(set1)
+# set1.symmetric_difference_update(set2)
+# print(set1)
 # print(set6)

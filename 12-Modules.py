@@ -24,3 +24,14 @@ import Practice_Area as p
 
 # p.greet('iceking',27)
 # p.vikings('ali','fraser','lewis','tyson','foreman','holyfield')
+
+
+import datetime as dt
+my_birthdate = dt.date(1997,1,27)
+print(my_birthdate)
+
+now = dt.datetime.today()
+print(now)
+
+dt.timedelta() #this is uses to remove a certain date/time from a given date/time
+

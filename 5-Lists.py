@@ -7,19 +7,19 @@
 # print(type(scores))
 
 #creating a lsit using a "LIST CONSTRUCTOR", ""=list(())""
-# scores = list((20,30,50.7,90,30,35,'man',True))
-# print(scores)
-# print(len(scores)) #calling the length of characters in the list
-# print(type(scores)) #calling the datatype
+scores = list((20,30,50.7,90,30,35,'man',True))
+print(scores)
+print(len(scores)) #calling the length of characters in the list
+print(type(scores)) #calling the datatype
 
 #calling the index
-# print(scores[3])  
-# print(scores[3:7])
-# print(scores[3])
-# print(scores[3:])
-# print(scores[:3])
-# print(scores[-3]) 
-# print(scores[-3:-1]) 
+print(scores[3])  
+print(scores[3:7])
+print(scores[3])
+print(scores[3:])
+print(scores[:3])
+print(scores[-3]) 
+print(scores[-3:-1]) 
 
 
 # if 30 in scores:
