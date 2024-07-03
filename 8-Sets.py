@@ -1,6 +1,6 @@
 # #SETS   31-05-2024
 
-students = {'alex','chimaobi','emma','Ebere','chimaobi'}
+# students = {'alex','chimaobi','emma','Ebere','chimaobi'}
 # students2 = {'okeke','amanda','onyeka'}
 # students3 = ['henry','sikito']
 
@@ -9,11 +9,11 @@ students = {'alex','chimaobi','emma','Ebere','chimaobi'}
 # # print(len(students))
 # # print(type(students))
 
-score = set((90,75,65,33,71,80))
-print(type(score))
+# score = set((90,75,65,33,71,80))
+# print(type(score))
 
-for i in students:
-    print(i)
+# for i in students:
+#     print(i)
 
 # # print('emma' in students)
 

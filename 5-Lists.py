@@ -13,13 +13,13 @@ print(len(scores)) #calling the length of characters in the list
 print(type(scores)) #calling the datatype
 
 #calling the index
-print(scores[3])  
-print(scores[3:7])
-print(scores[3])
-print(scores[3:])
-print(scores[:3])
-print(scores[-3]) 
-print(scores[-3:-1]) 
+# print(scores[3])  
+# print(scores[3:7])
+# print(scores[3])
+# print(scores[3:])
+# print(scores[:3])
+# print(scores[-3]) 
+# print(scores[-3:-1]) 
 
 
 # if 30 in scores:
@@ -122,7 +122,7 @@ print(scores[-3:-1])
 #23-05-2024
 #LIST COMPREHENSION
 fruits = ['banana','orange','mango','BANANA','apple','cherry']
-x = [i for i in fruits if 'a' in fruits]
+x = [i for i in fruits if 'a' in i]
 
 # foods = ['fufu','spaghetti','rice','beans','garri']
 # newlist=(foods + fruits)

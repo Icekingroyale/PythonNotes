@@ -1,6 +1,8 @@
 car = {'brand':'benz','colour':['black','red','blue'],'model':2024,'model':1999,'sold':True}
 print(car)
 print(type(car))
+print('benz' in car)
+print('brand' in car)
 # print(car['brand'])
 # print(len(car))
 
@@ -86,13 +88,13 @@ print(type(car))
 
 
 #NESTED DICTIONARY
-family = { 
-    'child1':{'name':'emerald','year':2019,'sex':'female'},
-    'child2':{'name':'jesse','year':2022,'sex':'male'},
-    'child3':{'name':'loyal','year':2024,'sex':'female'}
+# family = { 
+#     'child1':{'name':'emerald','year':2019,'sex':'female'},
+#     'child2':{'name':'jesse','year':2022,'sex':'male'},
+#     'child3':{'name':'loyal','year':2024,'sex':'female'}
 
-}
-print(family['child2']['name'])
+# }
+# print(family['child2']['name'])
 
 # no2 = family['child2']
 # print(no2['name'])
